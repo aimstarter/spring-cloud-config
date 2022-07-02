@@ -3,7 +3,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/msa_springboot?serverTimezone=Asia/Seoul
     username: aimstarter
-    password: 7641955g
+    password: "999a6e30b9a0b848fba1b55985a93ef912808f4c2f3817de5af4860ded85a43a"
 
 token:
   expiration_time: 864000000
