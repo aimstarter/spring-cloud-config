@@ -3,7 +3,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/msa_springboot?serverTimezone=Asia/Seoul
     username: aimstarter
-    password: "#{cipher}AQABQE/Osnd2hsTqGDxcFOejM033+/ygFNGM76zklQqHcoGHcFhI8+N/0LS42IOypYz4SyLnCix9XQAEdVciaGYqztES/iF1QoASPk8wI58tWZ24j8Fufyz56B1Km+8FLtM877NcG8tAudKcPwzvwsXsVQmjeB+rlGgyzdhnJHMOgesRcy1PCW442GIHvBOTca4dFUQlRYnGIktTxp+bCWsVE/LJbeYs3A9belzU3as2UVbUOJH5YQRGZ4TV/39wxjjeez5O/+HJB8rQkwh+tOfUqDuBYTzz/U3fYVoOdNGb76xwQj1OJaD8aat0V6O8PI9eG4R6xohT+x6bo+v7NDgnTs01KIlnjiPZ2gDd+GNwbWYYw3nxj/GWO5bqixHMxf0="
+    password: "${cipher}AQABQE/Osnd2hsTqGDxcFOejM033+/ygFNGM76zklQqHcoGHcFhI8+N/0LS42IOypYz4SyLnCix9XQAEdVciaGYqztES/iF1QoASPk8wI58tWZ24j8Fufyz56B1Km+8FLtM877NcG8tAudKcPwzvwsXsVQmjeB+rlGgyzdhnJHMOgesRcy1PCW442GIHvBOTca4dFUQlRYnGIktTxp+bCWsVE/LJbeYs3A9belzU3as2UVbUOJH5YQRGZ4TV/39wxjjeez5O/+HJB8rQkwh+tOfUqDuBYTzz/U3fYVoOdNGb76xwQj1OJaD8aat0V6O8PI9eG4R6xohT+x6bo+v7NDgnTs01KIlnjiPZ2gDd+GNwbWYYw3nxj/GWO5bqixHMxf0="
 
 token:
   expiration_time: 864000000
