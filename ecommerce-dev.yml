@@ -1,10 +1,3 @@
-spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/msa_springboot?serverTimezone=Asia/Seoul
-    username: aimstarter
-    password: 7641955g
-
 token:
   expiration_time: 864000000
   secret: user_token_dev
